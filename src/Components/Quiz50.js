@@ -1,8 +1,19 @@
 import React, { useState, useEffect } from "react";
-import { Typography, Paper, RadioGroup, Radio, FormControlLabel, Button, AppBar, Toolbar, Badge } from "@mui/material";
-import { green, red } from "@mui/material/colors";
-import { Link } from "react-router-dom";
 import quizData from "../QuizData/quizData.json";
+import {
+  Typography,
+  Paper,
+  FormGroup,
+  FormControlLabel,
+  Checkbox,
+  Button,
+  AppBar,
+  Toolbar,
+  Badge,
+  Radio
+} from "@mui/material";
+import { green, red } from "@mui/material/colors";
+import { shuffle } from "lodash";
 import "./Quiz.css";
 
 const Navbar = () => {
@@ -14,30 +25,69 @@ const Navbar = () => {
     </AppBar>
   );
 };
-
 const Quiz50 = () => {
-  const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState("");
-  const [answerStatus, setAnswerStatus] = useState(Array(50).fill(null));
+  const [selectedAnswers, setSelectedAnswers] = useState(
+    quizData.map(() => [])
+  );
+
+  const [answerStatus, setAnswerStatus] = useState(
+    Array(quizData.length).fill(null)
+  );
   const [rightCount, setRightCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
+  const [quizCompleted, setQuizCompleted] = useState(false);
+  const [originalQuestionNumber, setOriginalQuestionNumber] = useState(null);
+
+  const [randomizedQuestions, setRandomizedQuestions] = useState([]);
 
   useEffect(() => {
-    const shuffledQuizData = quizData.sort(() => Math.random() - 0.5);
-    const selectedQuestions = shuffledQuizData.slice(0, 50);
-    setQuestions(selectedQuestions);
+    const shuffledQuestions = shuffle(quizData);
+    setRandomizedQuestions(shuffledQuestions.slice(0, 50));
   }, []);
 
+useEffect(() => {
+  if (randomizedQuestions.length > 0) {
+    const currentQuestion = randomizedQuestions[currentQuestionIndex];
+    const questionIndexInOriginal = quizData.findIndex(
+      (question) => question.question === currentQuestion.question
+    );
+    setOriginalQuestionNumber(questionIndexInOriginal + 1);
+  }
+}, [currentQuestionIndex, randomizedQuestions]);
+
+  
+
+
   const handleAnswerChange = (event) => {
-    setSelectedAnswer(event.target.value);
+    const optionIndex = parseInt(event.target.value);
+    const updatedSelectedAnswers = [...selectedAnswers];
+
+    if (currentQuestion.type === "single") {
+      updatedSelectedAnswers[currentQuestionIndex] = [optionIndex];
+    } else {
+      if (updatedSelectedAnswers[currentQuestionIndex].includes(optionIndex)) {
+        updatedSelectedAnswers[currentQuestionIndex] = updatedSelectedAnswers[
+          currentQuestionIndex
+        ].filter((item) => item !== optionIndex);
+      } else {
+        updatedSelectedAnswers[currentQuestionIndex].push(optionIndex);
+      }
+    }
+
+    setSelectedAnswers(updatedSelectedAnswers);
   };
 
   const handleShowSolution = () => {
     const newAnswerStatus = [...answerStatus];
+    const correctAnswers =
+      randomizedQuestions[currentQuestionIndex].correctAnswer;
+
     const isCorrect =
-      parseInt(selectedAnswer) === questions[currentQuestionIndex].correctAnswer;
+      JSON.stringify(selectedAnswers[currentQuestionIndex].sort()) ===
+      JSON.stringify(correctAnswers.sort());
+
     newAnswerStatus[currentQuestionIndex] = isCorrect ? "correct" : "incorrect";
     setAnswerStatus(newAnswerStatus);
 
@@ -50,95 +100,146 @@ const Quiz50 = () => {
   };
 
   const handleNextQuestion = () => {
-    setSelectedAnswer("");
-    setCurrentQuestionIndex(currentQuestionIndex + 1);
-    setAnswerStatus(Array(50).fill(null));
+    setSelectedAnswers((prevSelectedAnswers) => {
+      const newSelectedAnswers = [...prevSelectedAnswers];
+      newSelectedAnswers[currentQuestionIndex] = [];
+      return newSelectedAnswers;
+    });
+
+    setCurrentQuestionIndex((prevIndex) => {
+      const newIndex = prevIndex + 1;
+      return newIndex < randomizedQuestions.length ? newIndex : prevIndex;
+    });
+
+    setAnswerStatus(Array(randomizedQuestions.length).fill(null));
   };
 
   const handlePreviousQuestion = () => {
-    setSelectedAnswer("");
-    setCurrentQuestionIndex(currentQuestionIndex - 1);
+    setSelectedAnswers((prevSelectedAnswers) => {
+      const newSelectedAnswers = [...prevSelectedAnswers];
+      newSelectedAnswers[currentQuestionIndex] = [];
+      return newSelectedAnswers;
+    });
+
+    setCurrentQuestionIndex((prevIndex) => {
+      const newIndex = prevIndex - 1;
+      return newIndex >= 0 ? newIndex : prevIndex;
+    });
   };
 
-  const currentQuestion = questions[currentQuestionIndex];
+  const handleFinishQuiz = () => {
+    setQuizCompleted(true);
+  };
+
+  const currentQuestion = randomizedQuestions[currentQuestionIndex];
   const showSolution = answerStatus[currentQuestionIndex] !== null;
+  const isLastQuestion = currentQuestionIndex === randomizedQuestions.length - 1;
+
+  const finalScore = (score / randomizedQuestions.length) * 100;
 
   return (
     <div>
       <Navbar />
       <Paper elevation={3} className="quiz-container">
-        <Typography variant="h4">Quiz App</Typography>
-        <div className="question-number">
-          Question {currentQuestionIndex + 1} / {questions.length}
-        </div>
-        {currentQuestion && (
-          <div className="question-container">
-            <Typography variant="h6">
-              Question {currentQuestionIndex + 1}
-            </Typography>
-            <Typography variant="body1">{currentQuestion.question}</Typography>
-            <RadioGroup
-              value={selectedAnswer}
-              onChange={handleAnswerChange}
-              className="RadioGroup"
-            >
-              {currentQuestion.options.map((option, index) => (
-                <FormControlLabel
-                  key={index}
-                  value={index.toString()}
-                  control={<Radio />}
-                  label={`${String.fromCharCode(65 + index)}. ${option}`}
-                  className={
-                    showSolution &&
-                    (index === currentQuestion.correctAnswer
-                      ? "correct"
-                      : index.toString() === selectedAnswer &&
-                        index !== currentQuestion.correctAnswer
-                      ? "incorrect"
-                      : "")
-                  }
-                  style={{
-                    backgroundColor:
-                      showSolution &&
-                      (index === currentQuestion.correctAnswer
-                        ? green[100]
-                        : index.toString() === selectedAnswer
-                        ? red[100]
-                        : ""),
-                  }}
+        <Typography variant="h4">AZ-104 </Typography>
+       
+
+        <div className="question-container">
+          {currentQuestion ? (
+            <>
+              <Typography variant="h6">
+                {isLastQuestion
+                  ? "Quiz Completed!"
+                  : `Question ${currentQuestionIndex + 1} / ${randomizedQuestions.length}`}
+              </Typography>
+              {originalQuestionNumber && (
+                <Typography variant="body1"  style={{ marginBottom: '8px' }}>
+                  Original Question Number: {originalQuestionNumber} 
+                </Typography>
+              )}
+              <Typography variant="body1">{currentQuestion.question}</Typography>
+              {currentQuestion.questionImage && (
+                <img
+                  src={currentQuestion.questionImage}
+                  alt={`Question ${currentQuestionIndex + 1}`}
+                  className="question-image"
                 />
-              ))}
-            </RadioGroup>
+              )}
+              <FormGroup
+                value={selectedAnswers[currentQuestionIndex]}
+                onChange={handleAnswerChange}
+                className="FormGroup"
+              >
+                {currentQuestion.options.map((option, index) => (
+                  <FormControlLabel
+                    key={index}
+                    value={index.toString()}
+                    control={
+                      currentQuestion.type === "single" ? (
+                        <Radio
+                          checked={selectedAnswers[currentQuestionIndex][0] === index}
+                        />
+                      ) : (
+                        <Checkbox
+                          checked={selectedAnswers[currentQuestionIndex].includes(
+                            index
+                          )}
+                        />
+                      )
+                    }
+                    label={`${String.fromCharCode(65 + index)}. ${option}`}
+                    className={
+                      showSolution &&
+                      (currentQuestion.correctAnswer.includes(index)
+                        ? "correct"
+                        : selectedAnswers[currentQuestionIndex].includes(index) &&
+                          !currentQuestion.correctAnswer.includes(index)
+                        ? "incorrect"
+                        : "")
+                    }
+                    style={{
+                      backgroundColor:
+                        showSolution &&
+                        (currentQuestion.correctAnswer.includes(index)
+                          ? green[100]
+                          : selectedAnswers[currentQuestionIndex].includes(index)
+                          ? red[100]
+                          : ""),
+                    }}
+                  />
+                ))}
+              </FormGroup>
+              <Button
+                variant="outlined"
+                color="primary"
+                onClick={handleShowSolution}
+                disabled={selectedAnswers[currentQuestionIndex].length === 0 || showSolution}
+              >
+                Show Answer
+              </Button>
+            </>
+          ) : (
+            <Typography variant="body1">No question available.</Typography>
+          )}
+          <div className="navigation-buttons">
             <Button
               variant="outlined"
               color="primary"
-              onClick={handleShowSolution}
-              disabled={selectedAnswer === "" || showSolution}
+              onClick={handlePreviousQuestion}
+              disabled={currentQuestionIndex === 0 || isLastQuestion}
             >
-              Show Answer
+              Previous Question
             </Button>
-            <div className="navigation-buttons">
-              <Button
-                variant="outlined"
-                color="primary"
-                onClick={handlePreviousQuestion}
-                disabled={currentQuestionIndex === 0}
-              >
-                Previous Question
-              </Button>
-              <Button
-                variant="outlined"
-                color="primary"
-                onClick={handleNextQuestion}
-                disabled={
-                  currentQuestionIndex === questions.length - 1 || !selectedAnswer
-                }
-              >
-                Next Question
-              </Button>
-            </div>
+            <Button
+              variant="outlined"
+              color="primary"
+              onClick={isLastQuestion ? handleFinishQuiz : handleNextQuestion}
+              disabled={(isLastQuestion && quizCompleted) || selectedAnswers[currentQuestionIndex].length === 0}
+            >
+              {isLastQuestion ? "Finish Quiz" : "Next Question"}
+            </Button>
           </div>
-        )}
+        </div>
         <div className="statistics">
           <Badge color="success" badgeContent={rightCount} className="badge">
             <Typography variant="subtitle1" style={{ fontWeight: "bold" }}>
@@ -154,27 +255,36 @@ const Quiz50 = () => {
         </div>
         {showSolution && (
           <div className="solution-description">
+            {currentQuestion.answerImage && (
+              <img
+                src={process.env.PUBLIC_URL + currentQuestion.answerImage}
+                alt={`Answer for Question ${currentQuestionIndex + 1}`}
+                className="answer-image"
+              />
+            )}
             <Typography variant="body2">
-              Correct Answer:{" "}
-              {String.fromCharCode(65 + currentQuestion.correctAnswer)}
+              Correct Answer(s):{" "}
+              {currentQuestion.correctAnswer
+                .map((index) => String.fromCharCode(65 + index))
+                .join(", ")}
             </Typography>
-            <Typography variant="body2">
-              {currentQuestion.solutionDescription}
-            </Typography>
+            <a
+              href={currentQuestion.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="external-link"
+            >
+              ExamTopics Link For the Question
+            </a>
           </div>
         )}
-        {currentQuestionIndex === questions.length && (
+        {quizCompleted && (
           <div className="quiz-completed">
-            <Typography variant="h6">Quiz Completed!</Typography>
-            <Typography variant="body1">Your score: {score}</Typography>
+            <Typography variant="h6">Your Final Score:</Typography>
+            <Typography variant="body1">{finalScore.toFixed(2)}%</Typography>
           </div>
         )}
       </Paper>
-      <Link to="/" style={{ textDecoration: "none", marginTop: "20px" }}>
-        <Button variant="outlined" color="primary">
-          Back to Home
-        </Button>
-      </Link>
     </div>
   );
 };

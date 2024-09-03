@@ -8,13 +8,14 @@
     border-radius: 4px;
     background-color: #fff;
     max-width: 800px; /* Adjust the width to fit your design */
+    white-space: pre-line;
   }
   
   
   .quiz-completed {
     margin-top: 20px;
   }
-  
+
   .navigation-buttons {
     margin-top: 20px;
     display: flex;

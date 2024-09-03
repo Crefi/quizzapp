@@ -150,7 +150,14 @@ const Quiz = () => {
             <Typography variant="h6">
               Question {currentQuestionIndex + 1}
             </Typography>
-            <Typography variant="body1">{currentQuestion.question}</Typography>
+            <Typography variant="body1">
+                  {currentQuestion.question.split('\n').map((line, index) => (
+                    <span key={index}>
+                      {line}
+                    <br />
+                    </span>
+                  ))}
+            </Typography>
             {currentQuestion.questionImage && (
               <img
                 src={currentQuestion.questionImage}

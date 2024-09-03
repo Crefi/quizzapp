@@ -157,7 +157,14 @@ useEffect(() => {
                   Original Question Number: {originalQuestionNumber} 
                 </Typography>
               )}
-              <Typography variant="body1">{currentQuestion.question}</Typography>
+              <Typography variant="body1">
+                  {currentQuestion.question.split('\n').map((line, index) => (
+                    <span key={index}>
+                      {line}
+                    <br />
+                    </span>
+                  ))}
+            </Typography>
               {currentQuestion.questionImage && (
                 <img
                   src={currentQuestion.questionImage}

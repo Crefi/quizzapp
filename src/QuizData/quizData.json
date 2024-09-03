@@ -1,6 +1,6 @@
 [
   {
-    "question": "Your company has several departments. Each department has a number of virtual machines (VMs). The company has an Azure subscription that contains a resource group named RG1. All VMs are located in RG1. You want to associate each VM with its respective department. What should you do?",
+    "question": "Your company has several departments. Each department has a number of virtual machines (VMs). \n The company has an Azure subscription that contains a resource group named RG1. \n  All VMs are located in RG1. You want to associate each VM with its respective department. \n What should you do?",
     "options": [
       "Create Azure Management Groups for each department",
       "Create a resource group for each department.",
@@ -15,7 +15,7 @@
 
   },
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an Azure Active Directory (Azure AD) subscription.You want to implement an Azure AD conditional access policy.The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.Solution: You access the Azure portal to alter the session control of the Azure AD conditional access policy.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. \n Your company has an Azure Active Directory (Azure AD) subscription. \n You want to implement an Azure AD conditional access policy.The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations. \n Solution: You access the Azure portal to alter the session control of the Azure AD conditional access policy. \n Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -28,7 +28,7 @@
 
   },
   {
-    "question": "The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an Azure Active Directory (Azure AD) subscription.You want to implement an Azure AD conditional access policy.The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.Solution: You access the multi-factor authentication page to alter the user settings.Does the solution meet the goal?",
+    "question": "The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. \n Your company has an Azure Active Directory (Azure AD) subscription.You want to implement an Azure AD conditional access policy. \n The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations. \n Solution: You access the multi-factor authentication page to alter the user settings. \n Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -41,7 +41,7 @@
 
   },
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an Azure Active Directory (Azure AD) subscription.You want to implement an Azure AD conditional access policy.The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.Solution: You access the Azure portal to alter the grant control of the Azure AD conditional access policy.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\n Establish if the solution satisfies the requirements.Your company has an Azure Active Directory (Azure AD) subscription.You want to implement an Azure AD conditional access policy.The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations. \n Solution: You access the Azure portal to alter the grant control of the Azure AD conditional access policy. \n Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -54,7 +54,7 @@
 
   },
   {
-    "question": "You are planning to deploy an Ubuntu Server virtual machine to your company's Azure subscription.You are required to implement a custom deployment that includes adding a particular trusted root certification authority (CA).Which of the following should you use to create the virtual machine?",
+    "question": "You are planning to deploy an Ubuntu Server virtual machine to your company's Azure subscription.\n You are required to implement a custom deployment that includes adding a particular trusted root certification authority (CA).Which of the following should you use to create the virtual machine?",
     "options": [
       "The New-AzureRmVm cmdlet",
       "The New-AzVM cmdlet",
@@ -70,7 +70,7 @@
   },
 
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.To achieve this, the Per Enabled User setting must be set for the usage model.Solution: You reconfigure the existing usage model via the Azure portal.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.To achieve this, the Per Enabled User setting must be set for the usage model. \n Solution: You reconfigure the existing usage model via the Azure portal.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -83,20 +83,20 @@
 
   },
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company's Azure solution makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.To achieve this, the Per Enabled User setting must be set for the usage model.Solution: You reconfigure the existing usage model via the Azure CLI.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company's Azure solution makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.To achieve this, the Per Enabled User setting must be set for the usage model. \n Solution: You reconfigure the existing usage model via the Azure CLI.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
     ],
     "correctAnswer": [1],
     "type": "single",
-    "link": "https://www.examtopics.com/discussions/microsoft/view/27900-exam-az-104-topic-1-question-7-discussion/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/59109-exam-az-104-topic-1-question-7-discussion/",
     "questionImage": null,
     "answerImage": null
 
   },
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company's Azure solution makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.To achieve this, the Per Enabled User setting must be set for the usage model.Solution: You create a new Multi-Factor Authentication provider with a backup from the existing Multi-Factor Authentication provider data.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company's Azure solution makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.To achieve this, the Per Enabled User setting must be set for the usage model. \n Solution: You create a new Multi-Factor Authentication provider with a backup from the existing Multi-Factor Authentication provider data.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -109,7 +109,7 @@
 
   },
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises ActiveDirectory domain.You have a server named DirSync1 that is configured as a DirSync server.You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately.Solution: You run the Start-ADSyncSyncCycle -PolicyType Initial PowerShell cmdlet.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises ActiveDirectory domain.You have a server named DirSync1 that is configured as a DirSync server.You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately. \n Solution: You run the Start-ADSyncSyncCycle -PolicyType Initial PowerShell cmdlet.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -122,7 +122,7 @@
 
   },
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises ActiveDirectory domain.You have a server named DirSync1 that is configured as a DirSync server.You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately.Solution: You use Active Directory Sites and Services to force replication of the Global Catalog on a domain controller.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\n Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises ActiveDirectory domain. \n You have a server named DirSync1 that is configured as a DirSync server.You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately. \n Solution: You use Active Directory Sites and Services to force replication of the Global Catalog on a domain controller. \n Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -135,7 +135,7 @@
 
   },
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises ActiveDirectory domain.You have a server named DirSync1 that is configured as a DirSync server.You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately.Solution: You restart the NetLogon service on a domain controller.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. \n Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises ActiveDirectory domain. \n You have a server named DirSync1 that is configured as a DirSync server.You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately. \n Solution: You restart the NetLogon service on a domain controller. \n Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -148,7 +148,7 @@
 
   },
   {
-    "question": "Your company has a Microsoft Azure subscription.The company has datacenters in Los Angeles and New York.You are configuring the two datacenters as geo-clustered sites for site resiliency.You need to recommend an Azure storage redundancy option.You have the following data storage requirements:✑ Data must be stored on multiple nodes.✑ Data must be stored on nodes in separate geographic locations.✑ Data can be read from the secondary location as well as from the primary location.Which of the following Azure stored redundancy options should you recommend?",
+    "question": "Your company has a Microsoft Azure subscription.The company has datacenters in Los Angeles and New York.You are configuring the two datacenters as geo-clustered sites for site resiliency.You need to recommend an Azure storage redundancy option. \n You have the following data storage requirements: \n ✑ Data must be stored on multiple nodes.\n ✑ Data must be stored on nodes in separate geographic locations. \n ✑ Data can be read from the secondary location as well as from the primary location. \n Which of the following Azure stored redundancy options should you recommend?",
     "options": [
       "Geo-redundant storage",
       "Read-only geo-redundant storage",
@@ -163,7 +163,7 @@
 
   },
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.You want to review the ARM template that was used by Jon Ross.Solution: You access the Virtual Machine blade.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. \n Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.You want to review the ARM template that was used by Jon Ross.\n Solution: You access the Virtual Machine blade. \n Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -176,7 +176,7 @@
 
   },
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.You want to review the ARM template that was used by Jon Ross.Solution: You access the Resource Group blade.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.\n You want to review the ARM template that was used by Jon Ross. \n Solution: You access the Resource Group blade.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -189,7 +189,7 @@
 
   },
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.You want to review the ARM template that was used by Jon Ross.Solution: You access the Container blade.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.\n You want to review the ARM template that was used by Jon Ross. \n Solution: You access the Container blade.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -250,9 +250,9 @@
     "question": "Your company has an Azure subscription.You need to deploy a number of Azure virtual machines (VMs) using Azure Resource Manager (ARM) templates. You have been informed that the VMs will be included in a single availability set.You are required to make sure that the ARM template you configure allows for as many VMs as possible to remain accessible in the event of fabric failure or maintenance.Which of the following is the value that you should configure for the platformUpdateDomainCount property?",
     "options": [
       "10",
+      "20",
       "30",
-      "40",
-      "50"
+      "40"
     ],
     "correctAnswer": [1],
     "type": "single",
@@ -288,7 +288,7 @@
 
   },
   {
-    "question": "Your company has an Azure Active Directory (Azure AD) tenant that is configured for hybrid coexistence with the on-premises Active Directory domain.You plan to deploy several new virtual machines (VMs) in Azure. The VMs will have the same operating system and custom software requirements.You configure a reference VM in the on-premise virtual environment. You then generalize the VM to create an image.You need to upload the image to Azure to ensure that it is available for selection when you create the new Azure VMs.Which PowerShell cmdlets should you use?",
+    "question": "Your company has an Azure Active Directory (Azure AD) tenant that is configured for hybrid coexistence with the on-premises Active Directory domain.You plan to deploy several new virtual machines (VMs) in Azure. The VMs will have the same operating system and custom software requirements.You configure a reference VM in the on-premise virtual environment. You then generalize the VM to create an image.You need to upload the image to Azure to ensure that it is available for selection when you create the new Azure VMs. \n Which PowerShell cmdlets should you use?",
     "options": [
       "Add-AzVM",
       "Add-AzVhd",
@@ -314,7 +314,7 @@
   },
 
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company's Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.VirtualNetworkA includes a VPN gateway that is configured to make use of static routing. Also, a site-to-site VPN connection exists between your company's on- premises network and VirtualNetworkA.You have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10. After configuring virtual network peering betweenVirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company's on-premises network. However, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.You have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation.Solution: You choose the Allow gateway transit setting on VirtualNetworkA.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company's Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.VirtualNetworkA includes a VPN gateway that is configured to make use of static routing. Also, a site-to-site VPN connection exists between your company's on- premises network and VirtualNetworkA.You have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10. After configuring virtual network peering betweenVirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company's on-premises network. However, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.You have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation. \n Solution: You choose the Allow gateway transit setting on VirtualNetworkA.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -328,7 +328,7 @@
   },
 
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company's Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.VirtualNetworkA includes a VPN gateway that is configured to make use of static routing. Also, a site-to-site VPN connection exists between your company's on- premises network and VirtualNetworkA.You have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10. After configuring virtual network peering betweenVirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company's on-premises network. However, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.You have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation.Solution: You choose the Allow gateway transit setting on VirtualNetworkB.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company's Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.VirtualNetworkA includes a VPN gateway that is configured to make use of static routing. Also, a site-to-site VPN connection exists between your company's on- premises network and VirtualNetworkA.You have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10. After configuring virtual network peering betweenVirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company's on-premises network. However, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.You have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation. \n Solution: You choose the Allow gateway transit setting on VirtualNetworkB.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -342,7 +342,7 @@
   },
 
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company's Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.VirtualNetworkA includes a VPN gateway that is configured to make use of static routing. Also, a site-to-site VPN connection exists between your company's on- premises network and VirtualNetworkA.You have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10. After configuring virtual network peering betweenVirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company's on-premises network. However, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.You have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation.Solution: You download and re-install the VPN client configuration package on the Windows 10 workstation.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company's Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.VirtualNetworkA includes a VPN gateway that is configured to make use of static routing. Also, a site-to-site VPN connection exists between your company's on- premises network and VirtualNetworkA.You have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10. After configuring virtual network peering betweenVirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company's on-premises network. However, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.You have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation. \n Solution: You download and re-install the VPN client configuration package on the Windows 10 workstation.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -373,7 +373,7 @@
   },
 
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).You need to configure an Azure internal load balancer as a listener for the availability group.Solution: You create an HTTP health probe on port 1433.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).You need to configure an Azure internal load balancer as a listener for the availability group. \n Solution: You create an HTTP health probe on port 1433.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -387,7 +387,7 @@
   },
 
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).You need to configure an Azure internal load balancer as a listener for the availability group.Solution: You set Session persistence to Client IP.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).You need to configure an Azure internal load balancer as a listener for the availability group. \n Solution: You set Session persistence to Client IP.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -401,7 +401,7 @@
   },
 
   {
-    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).You need to configure an Azure internal load balancer as a listener for the availability group.Solution: You enable Floating IP.Does the solution meet the goal?",
+    "question": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).You need to configure an Azure internal load balancer as a listener for the availability group.\n Solution: You enable Floating IP.Does the solution meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -506,7 +506,7 @@
     ],
     "correctAnswer": [1],
     "type": "single",
-    "link": "https://www.examtopics.com/discussions/microsoft/view/56297-exam-az-104-topic-1-question-35-discussion/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/57347-exam-az-104-topic-1-question-36-discussion/",
     "questionImage": null,
     "answerImage": null
 
@@ -532,7 +532,7 @@
   ,
 
   {
-    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have an Azure Active Directory (Azure AD) tenant named contoso.com.You have a CSV file that contains the names and email addresses of 500 external users.You need to create a guest user account in contoso.com for each of the 500 external users.Solution: You create a PowerShell script that runs the New-AzureADUser cmdlet for each user.Does this meet the goal?",
+    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have an Azure Active Directory (Azure AD) tenant named contoso.com.You have a CSV file that contains the names and email addresses of 500 external users.You need to create a guest user account in contoso.com for each of the 500 external users. \n Solution: You create a PowerShell script that runs the New-AzureADUser cmdlet for each user.Does this meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -546,7 +546,7 @@
   }  ,
 
   {
-    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have an Azure Active Directory (Azure AD) tenant named contoso.com.You have a CSV file that contains the names and email addresses of 500 external users.You need to create a guest user account in contoso.com for each of the 500 external users.Solution: You create a PowerShell script that runs the New-AzureADMSInvitation cmdlet for each external user.Does this meet the goal?",
+    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have an Azure Active Directory (Azure AD) tenant named contoso.com.You have a CSV file that contains the names and email addresses of 500 external users.You need to create a guest user account in contoso.com for each of the 500 external users. \n Solution: You create a PowerShell script that runs the New-AzureADMSInvitation cmdlet for each external user.Does this meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -582,7 +582,7 @@
     ],
     "correctAnswer": [1],
     "type": "single",
-    "link": "https://www.examtopics.com/discussions/microsoft/view/78364-exam-az-104-topic-1-question-40-discussion/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/75852-exam-az-104-topic-2-question-2-discussion/",
     "questionImage": null,
     "answerImage": null
   }
@@ -601,7 +601,7 @@
     ],
     "correctAnswer": [0,2],
     "type": "multiple",
-    "link": "https://www.examtopics.com/discussions/microsoft/view/78364-exam-az-104-topic-1-question-40-discussion/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/75853-exam-az-104-topic-2-question-3-discussion/",
     "questionImage": null,
     "answerImage": null
   },
@@ -667,7 +667,7 @@
   },
 
   {
-    "question": "You have an Azure subscription named AZPT1 that contains the resources shown in the following table:You create a new Azure subscription named AZPT2.You need to identify which resources can be moved to AZPT2.Which resources should you identify?",
+    "question": "You have an Azure subscription named AZPT1 that contains the resources shown in the following table: \n You create a new Azure subscription named AZPT2. \n You need to identify which resources can be moved to AZPT2. \n Which resources should you identify?",
     "options": [
       "VM1, storage1, VNET1, and VM1Managed only",
       "VM1 and VM1Managed only",
@@ -676,23 +676,24 @@
     ],
     "correctAnswer": [2],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/5/",
-    "questionImage": null,
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38114-exam-az-104-topic-2-question-8-discussion/",
+    "questionImage": "/images/Question8T2.png",
     "answerImage":  null
 
 
   },
 
   {
-    "question": "You have an Azure Active Directory (Azure AD) tenant that contains 5,000 user accounts.You create a new user account named AdminUser1.You need to assign the User administrator administrative role to AdminUser1.What should you do from the user account properties?",
+  "question": "You recently created a new Azure subscription that contains a user named Admin1.\n Admin1 attempts to deploy an Azure Marketplace resource by using an Azure Resource Manager template.\n Admin1 deploys the template by using Azure PowerShell and receives the following error message: \n `User failed validation to purchase resources. Error message: `Legal terms have not been accepted for this \n item on this subscription. To accept legal terms, please go to the Azure portal (http://go.microsoft.com/fwlink/?LinkId=534873) and configure programmatic deployment for the Marketplace item or create it there for the first time.` \n You need to ensure that Admin1 can deploy the Marketplace resource successfully. \n What should you do?",
     "options": [
-      "From the Licenses blade, assign a new license",
-      "From the Directory role blade, modify the directory role",
-      "From the Groups blade, invite the user account to a new group"
+      "From Azure PowerShell, run the Set-AzApiManagementSubscription cmdlet",
+      "From the Azure portal, register the Microsoft.Marketplace resource provider",
+      "From Azure PowerShell, run the Set-AzMarketplaceTerms cmdlet",
+      "From the Azure portal, assign the Billing administrator role to Admin1"
     ],
-    "correctAnswer": [1],
+    "correctAnswer": [2],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/5/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/25995-exam-az-104-topic-2-question-9-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -700,7 +701,7 @@
   },
 
   {
-    "question": "You have an Azure Active Directory (Azure AD) tenant named contoso.onmicrosoft.com that contains 100 user accounts.You purchase 10 Azure AD Premium P2 licenses for the tenant.You need to ensure that 10 users can use all the Azure AD Premium features.What should you do?",
+    "question": "You have an Azure Active Directory (Azure AD) tenant named contoso.onmicrosoft.com that contains 100 user accounts. \n You purchase 10 Azure AD Premium P2 licenses for the tenant. \n You need to ensure that 10 users can use all the Azure AD Premium features. \n What should you do?",
     "options": [
       "From the Licenses blade of Azure AD, assign a license",
       "From the Groups blade of each user, invite the users to a group",
@@ -717,7 +718,7 @@
   },
 
   {
-    "question": "You have an Azure subscription named Subscription1 and an on-premises deployment of Microsoft System Center Service Manager.Subscription1 contains a virtual machine named VM1.You need to ensure that an alert is set in Service Manager when the amount of available memory on VM1 is below 10 percent.What should you do first?",
+    "question": "You have an Azure subscription named Subscription1 and an on-premises deployment of Microsoft System Center Service Manager. \n Subscription1 contains a virtual machine named VM1. \n You need to ensure that an alert is set in Service Manager when the amount of available memory on VM1 is below 10 percent. \n What should you do first?",
     "options": [
       "Create an automation runbook",
       "Deploy a function app",
@@ -726,7 +727,7 @@
     ],
     "correctAnswer": [2],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/6/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/28102-exam-az-104-topic-2-question-12-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -734,7 +735,7 @@
   },
 
   {
-    "question": "You sign up for Azure Active Directory (Azure AD) Premium P2.You need to add a user named admin1@contoso.com as an administrator on all the computers that will be joined to the Azure AD domain.What should you configure in Azure AD?",
+    "question": "You sign up for Azure Active Directory (Azure AD) Premium P2.You need to add a user named admin1@contoso.com as an administrator on all the computers that will be joined to the Azure AD domain. \n What should you configure in Azure AD?",
     "options": [
       "Device settings from the Devices blade",
       "Providers from the MFA Server blade",
@@ -743,7 +744,7 @@
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/6/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/28103-exam-az-104-topic-2-question-13-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -758,7 +759,7 @@
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/6/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/75854-exam-az-104-topic-2-question-14-discussion/",
     "questionImage": "/images/Question14T2.jpg",
     "answerImage":  "/images/Answer14T2.jpg"
 
@@ -775,7 +776,7 @@
     ],
     "correctAnswer": [2],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/6/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/56349-exam-az-104-topic-2-question-15-discussion/",
     "questionImage": "/images/Question15T2.jpg",
     "answerImage":  null
 
@@ -784,7 +785,7 @@
 
 
   {
-    "question": "You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.Subscription1 has a user named User1. User1 has the following roles:✑ Reader✑ Security Admin✑ Security ReaderYou need to ensure that User1 can assign the Reader role for VNet1 to other users.What should you do?",
+    "question": "You have an Azure subscription named Subscription1 that contains a virtual network named VNet1.VNet1 is in a resource group named RG1.Subscription1 has a user named User1. \n  User1 has the following roles: \n ✑ Reader \n ✑ Security Admin \n ✑ Security Reader \n You need to ensure that User1 can assign the Reader role for VNet1 to other users.What should you do?",
     "options": [
       "Remove User1 from the Security Reader and Reader roles for Subscription1.",
       "Assign User1 the User Access Administrator role for VNet1.",
@@ -793,7 +794,7 @@
     ],
     "correctAnswer": [1],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/6/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/62888-exam-az-104-topic-2-question-16-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -811,7 +812,7 @@
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/6/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38185-exam-az-104-topic-2-question-17-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -820,14 +821,14 @@
   
 
   {
-    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers.Subscription1 contains a resource group named Dev.You need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group.Solution: On Subscription1, you assign the DevTest Labs User role to the Developers group.Does this meet the goal?",
+    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers.Subscription1 contains a resource group named Dev.You need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group. \n Solution: On Subscription1, you assign the DevTest Labs User role to the Developers group.Does this meet the goal?",
     "options": [
       "Yes",
       "No"
     ],
     "correctAnswer": [1],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/6/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/35085-exam-az-104-topic-2-question-18-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -836,14 +837,14 @@
   
 
   {
-    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers.Subscription1 contains a resource group named Dev.You need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group.Solution: On Dev, you assign the Contributor role to the Developers group.Does this meet the goal?",
+    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers.Subscription1 contains a resource group named Dev.You need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group. \n Solution: On Subscription1, you assign the Logic App Operator role to the Developers group.Does this meet the goal?",
     "options": [
       "Yes",
       "No"
     ],
-    "correctAnswer": [0],
+    "correctAnswer": [1],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/6/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38859-exam-az-104-topic-2-question-19-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -890,7 +891,7 @@
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/7/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/62980-exam-az-104-topic-2-question-23-discussion/",
     "questionImage": "/images/Question23T2.png",
     "answerImage":  "/images/Answer23T2.png"
 
@@ -909,20 +910,20 @@
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/7/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38733-exam-az-104-topic-2-question-24-discussion/",
     "questionImage": "/images/Question24T2.png",
     "answerImage":  null
 
 
   },
   {
-    "question": "HOTSPOT You have an Azure subscription named Subscription1 that has a subscription ID of c276fc76-9cd4-44c9-99a7-4fd71546436e.You need to create a custom RBAC role named CR1 that meets the following requirements:✑ Can be assigned only to the resource groups in Subscription1✑ Prevents the management of the access permissions for the resource groups✑ Allows the viewing, creating, modifying, and deleting of resources within the resource groupsWhat should you specify in the assignable scopes and the permission elements of the definition of CR1? To answer, select the appropriate options in the answer area.NOTE: Each correct selection is worth one point.Hot Area:",
+    "question": "HOTSPOT You have an Azure subscription named Subscription1 that has a subscription ID of c276fc76-9cd4-44c9-99a7-4fd71546436e.\n You need to create a custom RBAC role named CR1 that meets the following requirements:\n ✑ Can be assigned only to the resource groups in Subscription1 \n ✑ Prevents the management of the access permissions for the resource groups \n ✑ Allows the viewing, creating, modifying, and deleting of resources within the resource groups \n What should you specify in the assignable scopes and the permission elements of the definition of CR1? \n  To answer, select the appropriate options in the answer area.NOTE: Each correct selection is worth one point.Hot Area:",
     "options": [
       "Choose me"
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/7/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38806-exam-az-104-topic-2-question-25-discussion/",
     "questionImage": "/images/Question25T2.jpg",
     "answerImage":  "/images/Answer25T2.jpg"
 
@@ -941,7 +942,7 @@
     ],
     "correctAnswer": [0,4],
     "type": "multiple",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/7/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38126-exam-az-104-topic-2-question-26-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -960,7 +961,7 @@
     ],
     "correctAnswer": [1],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/7/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38220-exam-az-104-topic-2-question-27-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -975,7 +976,7 @@
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/7/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38358-exam-az-104-topic-2-question-28-discussion/",
     "questionImage": "/images/Question28T2.png",
     "answerImage":  "/images/Answer28T2.png"
 
@@ -1011,7 +1012,7 @@
     ],
     "correctAnswer": [2],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/7/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/51306-exam-az-104-topic-2-question-30-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -1026,7 +1027,7 @@
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/8/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/62981-exam-az-104-topic-2-question-31-discussion/",
     "questionImage": "/images/Question31T2.png",
     "answerImage":  "/images/Answer31T2.png"
 
@@ -1035,7 +1036,23 @@
   
 
   {
-    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription.Solution: You assign the Network Contributor role at the subscription level to Admin1.Does this meet the goal?",
+    "question": "HOTSPOT -You have a hybrid deployment of Azure Active Directory (Azure AD) that contains the users shown in the following table.You need to modify the JobTitle and UsageLocation attributes for the users.For which users can you modify the attributes from Azure AD? To answer, select the appropriate options in the answer area.NOTE: Each correct selection is worth one point.Hot Area:",
+    "options": [
+      "Choose me"
+    ],
+    "correctAnswer": [0],
+    "type": "single",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38424-exam-az-104-topic-2-question-32-discussion/",
+    "questionImage": "/images/Question32T2.png",
+    "answerImage":  "/images/Answer32T2.png"
+
+
+  },
+  
+  
+
+  {
+    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription. \n Solution: You assign the Network Contributor role at the subscription level to Admin1.Does this meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -1052,7 +1069,7 @@
   
 
   {
-    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription.Solution: You assign the Owner role at the subscription level to Admin1.Does this meet the goal?",
+    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription.\n Solution: You assign the Owner role at the subscription level to Admin1.Does this meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -1069,7 +1086,7 @@
   
 
   {
-    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription.Solution: You assign the Reader role at the subscription level to Admin1.Does this meet the goal?",
+    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription. \n Solution: You assign the Reader role at the subscription level to Admin1.Does this meet the goal?",
     "options": [
       "Yes",
       "No"
@@ -1077,7 +1094,7 @@
     ],
     "correctAnswer": [1],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/8/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38242-exam-az-104-topic-2-question-35-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -1096,7 +1113,7 @@
     ],
     "correctAnswer": [2],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/8/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38321-exam-az-104-topic-2-question-36-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -1130,7 +1147,7 @@
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/8/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/41214-exam-az-104-topic-2-question-38-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -1149,7 +1166,7 @@
     ],
     "correctAnswer": [1],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/8/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/51251-exam-az-104-topic-2-question-39-discussion/",
     "questionImage": "/images/Question39T2.png",
     "answerImage":  null
 
@@ -1184,7 +1201,7 @@
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/9/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/51274-exam-az-104-topic-2-question-41-discussion/",
     "questionImage": "/images/Question41T2.jpg",
     "answerImage":   "/images/Answer41T2.jpg"
 
@@ -1203,7 +1220,7 @@
     ],
     "correctAnswer": [1],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/9/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/78486-exam-az-104-topic-2-question-42-discussion/",
     "questionImage": null,
     "answerImage":  null
 
@@ -1221,7 +1238,7 @@
     ],
     "correctAnswer": [3],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/9/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/63074-exam-az-104-topic-2-question-43-discussion/",
     "questionImage": null,
     "answerImage":  null
 

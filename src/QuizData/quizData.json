@@ -142,7 +142,7 @@
     ],
     "correctAnswer": [1],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/2/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/56832-exam-az-104-topic-1-question-11-discussion/",
     "questionImage": null,
     "answerImage": null
 
@@ -1382,7 +1382,7 @@
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/exams/microsoft/az-104/view/10/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/73882-exam-az-104-topic-2-question-52-discussion/",
     "questionImage": "/images/Question52T2.jpg",
     "answerImage":  "/images/Answer52T2.jpg"
 
@@ -4149,7 +4149,7 @@
   }     ,
 
   {
-    "question": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have an Azure subscription that contains the resources shown in the following table.VM1 connects to VNET1.You need to connect VM1 to VNET2.Solution: You create a new network interface, and then you add the network interface to VM1.Does this meet the goal?",
+    "question": "You have an Azure Active Directory (Azure AD) tenant named adatum.com that contains the users shown in the following table.Adatum.com has the following configurations:✑ Users may join devices to Azure AD is set to User1.✑ Additional local administrators on Azure AD joined devices is set to None.You deploy Windows 10 to a computer named Computer1. User1 joins Computer1 to adatum.com.You need to identify the local Administrator group membership on Computer1.Which users are members of the local Administrators group?",
     "options": [
     "User1 only",
     "User2 only",
@@ -4567,7 +4567,7 @@
     ],
     "correctAnswer": [0],
     "type": "single",
-    "link": "https://www.examtopics.com/discussions/microsoft/view/38272-exam-az-104-topic-4-question-57-discussion/",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38269-exam-az-104-topic-4-question-60-discussion/",
     "questionImage": "/images/Question60T4.jpg",
     "answerImage":  "/images/Answer60T4.jpg"
 
@@ -4844,7 +4844,7 @@
     "New-AzDeployment"
 
     ],
-    "correctAnswer": [0],
+    "correctAnswer": [3],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/78698-exam-az-104-topic-4-question-77-discussion/",
     "questionImage": "/images/Question77T4.jpg",
@@ -5411,7 +5411,7 @@
     "Configure a DNS name for VM1."
 
     ],
-    "correctAnswer": [2],
+    "correctAnswer": [1],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/39309-exam-az-104-topic-5-question-15-discussion/",
     "questionImage": "/images/Question15T5.jpg",
@@ -6269,7 +6269,7 @@
 
 
     ],
-    "correctAnswer": [2],
+    "correctAnswer": [3],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/51363-exam-az-104-topic-5-question-67-discussion/",
     "questionImage": "/images/Question67T5.png",
@@ -6840,7 +6840,7 @@
 
 
     ],
-    "correctAnswer": [2],
+    "correctAnswer": [1],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/78341-exam-az-104-topic-5-question-100-discussion/",
     "questionImage": "/images/Question100T5.png",
@@ -6878,7 +6878,7 @@
 
 
     ],
-    "correctAnswer": [2],
+    "correctAnswer": [1],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/94060-exam-az-104-topic-5-question-102-discussion/",
     "questionImage": "/images/Question102T5.png",
@@ -6948,7 +6948,7 @@
     "question": "You have an Azure subscription that contains 20 virtual machines, a network security group (NSG) named NSG1, and two virtual networks named VNET1 and VNET2 that are peered.You plan to deploy an Azure Bastion Basic SKU host named Bastion1 to VNET1.You need to configure NSG1 to allow inbound access to the virtual machines via Bastion1.Which port should you configure for the inbound security rule?",
     "options": [
     "22",
-    "444",
+    "443",
     "389",
     "8080"
 
@@ -7080,7 +7080,7 @@
 
 
     ],
-    "correctAnswer": [2],
+    "correctAnswer": [0],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/94069-exam-az-104-topic-5-question-113-discussion/",
     "questionImage": null,
@@ -7230,7 +7230,7 @@
 
 
     ],
-    "correctAnswer": [0],
+    "correctAnswer": [1],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/102357-exam-az-104-topic-5-question-121-discussion/",
     "questionImage": null,
@@ -7305,10 +7305,10 @@
     "VM1, Disk1, NetInt1, and VNet1"
 
     ],
-    "correctAnswer": [0],
+    "correctAnswer": [3],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/108603-exam-az-104-topic-5-question-125-discussion/",
-    "questionImage": "/images/Question122T5.png",
+    "questionImage": "/images/Question125T5.png",
     "answerImage":  null
 
 
@@ -7636,7 +7636,7 @@
     "VM1, VM2, and VM3"
 
     ],
-    "correctAnswer": [0],
+    "correctAnswer": [1],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/119716-exam-az-104-topic-5-question-144-discussion/",
     "questionImage": "/images/Question144T5.png",
@@ -7727,7 +7727,7 @@
     "Create a new backup policy"
 
     ],
-    "correctAnswer": [1],
+    "correctAnswer": [0],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/39690-exam-az-104-topic-6-question-3-discussion/",
     "questionImage": "/images/Question3T6.png",
@@ -8340,7 +8340,7 @@
     "Create a TXT record named www.contoso.com that has a value of contoso.azurewebsites.net."
 
     ],
-    "correctAnswer": [2],
+    "correctAnswer": [1],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/93852-exam-az-104-topic-6-question-39-discussion/",
     "questionImage": null,
@@ -8642,7 +8642,7 @@
     "an Azure Monitor agent extension"
 
     ],
-    "correctAnswer": [2],
+    "correctAnswer": [3],
     "type": "single",
     "link": "https://www.examtopics.com/discussions/microsoft/view/121828-exam-az-104-topic-6-question-56-discussion/",
     "questionImage": null,

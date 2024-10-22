@@ -17,6 +17,9 @@ const HomePage = () => {
       <Button component={Link} to="/quiz50" variant="contained" color="primary">
         Az 104 - 50 questions
       </Button>
+      <Button component={Link} to="/quiz204" variant="contained" color="primary">
+        Az 204 full
+      </Button>
     </Paper>
   );
 };
